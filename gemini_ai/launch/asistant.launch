@@ -1,0 +1,5 @@
+<launch>
+    <node name="Alice" pkg="gemini_ai" type="main_gemini.py" output="screen"></node>
+    <node name="googlesr" pkg="gemini_ai" type="Speech_recog.py" output="screen"></node>
+    <node name="googletts" pkg="gemini_ai" type="Text-to-speech.py" output="screen"></node>
+</launch>
